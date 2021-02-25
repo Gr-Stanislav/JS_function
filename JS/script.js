@@ -1,17 +1,9 @@
-
-const numOne = parseInt(prompt("Первое число:"));
-const numTwo = parseInt(prompt("Второе число:"));
+const num1 = prompt ("Первое число");
+const num2 = prompt ("Второе число");
+const num3 = prompt ("Третье число");
 
 function define() {
-    if (numOne > numTwo) {
-        let a = 1;
-        alert (a);
-    } else if (numOne < numTwo) {
-        let b = -1;
-        alert (b);
-    } else {
-        alert (0);
-    }
+    alert (num1 + num2 + num3);
 }
 
 define();
