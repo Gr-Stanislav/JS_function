@@ -1,11 +1,12 @@
-const a = parseInt(prompt ("Ширина триугольникао:"));
-const h = parseInt(prompt ("Высота триугольника:"));
-let s;
+const a = parseInt(prompt ("Факториал числа:"));
+let result = 1;
 
 
-function define() {
-    s = (a * h) / 2;
-    alert ("Площадь треугольника: " + s + " см. куб");
+function factorial(a) {
+    while (a) {
+        result *= a--;
+    }
+    return result;
 }
 
-define();
+alert (factorial(a));
